@@ -6,6 +6,7 @@ function getElementWidth(content, padding, border) {
   );
 }
 
-console.log(getShippingMessage("Australia", 120, 50));
-console.log(getShippingMessage("Germany", 80, 20)); 
-console.log(getShippingMessage("Sweden", 100, 20));
+console.log(getElementWidth("50px", "8px", "4px")); 
+console.log(getElementWidth("60px", "12px", "8.5px")); 
+console.log(getElementWidth("200px", "0px", "0px")); 
+
